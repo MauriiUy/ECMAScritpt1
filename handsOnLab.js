@@ -42,7 +42,10 @@ class ProductManager {
   productManager.agregarProducto("Producto 2", "Descripción 2", 19, "thumbnail2.jpg", "DEF456", 20);
   productManager.agregarProducto("Producto 3", "Descripción 3", 7, "thumbnail3.jpg", "GHI789", 30);
   
-  const productId = 3
+
+  //PRUEBA TERMINAL 
+  
+  const productId = 4
 ;
   const product = productManager.getProductById(productId);
   
