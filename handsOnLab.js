@@ -27,10 +27,10 @@ class ProductManager {
       const product = this.products.find((product) => product.id === id);
   
       if (product) {
-        console.log('Producto encontrado');
+        console.log('Producto encontrado'+ ' '+ product.title);
         return product;
       } else {
-        console.log('El producto no se encuentra');
+        console.log('NOT FOUND');
         return null;
       }
     }
@@ -42,7 +42,8 @@ class ProductManager {
   productManager.agregarProducto("Producto 2", "Descripción 2", 19, "thumbnail2.jpg", "DEF456", 20);
   productManager.agregarProducto("Producto 3", "Descripción 3", 7, "thumbnail3.jpg", "GHI789", 30);
   
-  const productId = 2;
+  const productId = 3
+;
   const product = productManager.getProductById(productId);
   
 
