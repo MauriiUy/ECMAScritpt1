@@ -38,14 +38,14 @@ class ProductManager {
   
   const productManager = new ProductManager();
   
-  productManager.agregarProducto("Producto 1", "Descripción 1", 10, "thumbnail1.jpg", "ABC123", 50);
-  productManager.agregarProducto("Producto 2", "Descripción 2", 19, "thumbnail2.jpg", "DEF456", 20);
-  productManager.agregarProducto("Producto 3", "Descripción 3", 7, "thumbnail3.jpg", "GHI789", 30);
+  productManager.agregarProducto("JARRO", "Descripción 1", 10, "thumbnail1.jpg", "ABC123", 50);
+  productManager.agregarProducto("PLATO", "Descripción 2", 19, "thumbnail2.jpg", "DEF456", 20);
+  productManager.agregarProducto("CUCHARA", "Descripción 3", 7, "thumbnail3.jpg", "GHI789", 30);
   
 
   //PRUEBA TERMINAL 
-  
-  const productId = 4
+
+  const productId = 2
 ;
   const product = productManager.getProductById(productId);
   
